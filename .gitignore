@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.idea/
+.vscode/
+build/
+dist/
+
+# Large or third-party artifacts
+data/**
+!data/README.md
+checkpoints/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+
+# Local configuration
+.env
+*.local.json

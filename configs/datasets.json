@@ -1,0 +1,54 @@
+{
+  "datasets": {
+    "BUSI": {
+      "license": "No explicit redistribution license confirmed",
+      "source": "https://doi.org/10.1016/j.dib.2019.104863",
+      "task": "medical image segmentation"
+    },
+    "CAMO": {
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "https://sites.google.com/view/ltnghia/research/camo",
+      "task": "camouflaged object segmentation"
+    },
+    "CHAMELEON": {
+      "license": "Verify with dataset owner before redistribution",
+      "source": "https://www.polsl.pl/rau6/chameleon-database-animal-camouflage-analysis/",
+      "task": "camouflaged object segmentation"
+    },
+    "COCO": {
+      "license": "Per-image Flickr licenses; COCO terms apply",
+      "source": "https://cocodataset.org/#download",
+      "task": "natural image segmentation"
+    },
+    "COD10K": {
+      "license": "No explicit redistribution grant confirmed",
+      "source": "https://mmcheng.net/cod/",
+      "task": "camouflaged object segmentation"
+    },
+    "ISIC2016": {
+      "license": "CC0 for the 2016 challenge files listed by ISIC",
+      "source": "https://challenge.isic-archive.com/data/",
+      "task": "medical image segmentation"
+    },
+    "Kvasir-SEG": {
+      "license": "Verify the publisher release terms",
+      "source": "https://www.simulamet.no/research/kvasir-seg-segmented-polyp-dataset",
+      "task": "medical image segmentation"
+    },
+    "PerSeg": {
+      "license": "Verify dataset-specific terms",
+      "source": "https://github.com/ZrrSkywalker/Personalize-SAM",
+      "task": "personalized segmentation"
+    },
+    "VOC2012": {
+      "license": "Source Flickr terms apply",
+      "source": "https://www.robots.ox.ac.uk/~vgg/projects/pascal/VOC/voc2012/",
+      "task": "natural image segmentation"
+    }
+  },
+  "normalized_layout": {
+    "image": "<stem>.jpg",
+    "mask": "<stem>.png",
+    "prompt": "<stem>.txt"
+  }
+}

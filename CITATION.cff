@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Parameter-Free Fine-tuning via Redundancy Elimination for Vision Foundation Models"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Long
+    given-names: Jiahuan
+  - family-names: Jiang
+    given-names: Tingsong
+  - family-names: Yao
+    given-names: Wen
+  - family-names: Xiong
+    given-names: Yizhe
+  - family-names: Xu
+    given-names: Zhengqin
+  - family-names: Jia
+    given-names: Shuai
+  - family-names: Liu
+    given-names: Hanqing
+  - family-names: Ma
+    given-names: Chao
+preferred-citation:
+  type: conference-paper
+  title: "Parameter-Free Fine-tuning via Redundancy Elimination for Vision Foundation Models"
+  authors:
+    - family-names: Long
+      given-names: Jiahuan
+    - family-names: Jiang
+      given-names: Tingsong
+    - family-names: Yao
+      given-names: Wen
+    - family-names: Xiong
+      given-names: Yizhe
+    - family-names: Xu
+      given-names: Zhengqin
+    - family-names: Jia
+      given-names: Shuai
+    - family-names: Liu
+      given-names: Hanqing
+    - family-names: Ma
+      given-names: Chao
+  collection-title: "Proceedings of the AAAI Conference on Artificial Intelligence"
+  volume: 40
+  issue: 28
+  start: 24035
+  end: 24043
+  year: 2026
+  doi: 10.1609/aaai.v40i28.39581
