@@ -4,6 +4,12 @@ Dataset files are not covered by this repository's Apache-2.0 license. Download
 each dataset from its official source and comply with its terms. The preparation
 tools generate metadata only and do not alter ownership of the underlying data.
 
+The subset in [`data/samples`](../data/samples) contains 100 normalized
+records for each of the eight datasets used by the paper. It is enough to
+inspect the file layout and run a smoke test; it is not the paper's canonical
+benchmark split, is not a substitute for the official datasets, and does not
+grant any additional rights.
+
 | Dataset | Official source | Redistribution guidance |
 |---|---|---|
 | COCO | <https://cocodataset.org/#download> | Do not mirror the image bundle; individual Flickr image licenses and COCO terms apply. |

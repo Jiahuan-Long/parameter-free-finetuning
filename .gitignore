@@ -14,6 +14,12 @@ dist/
 # Large or third-party artifacts
 data/**
 !data/README.md
+!data/samples/
+!data/samples/README.md
+!data/samples/manifest.jsonl
+!data/samples/*/
+!data/samples/*/*-1024/
+!data/samples/*/*-1024/**
 checkpoints/
 runs/
 *.pth

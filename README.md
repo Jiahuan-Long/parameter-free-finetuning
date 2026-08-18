@@ -148,11 +148,18 @@ docs/               # method, installation, provenance, and release notes
 
 ## Data and third-party assets
 
-SAM/SAM 2 source, checkpoints, and third-party datasets are intentionally not
-vendored. Dataset files have independent licenses. Official download sources
-and redistribution notes for COCO, VOC2012, PerSeg, ISIC2016, BUSI,
-Kvasir-SEG, CAMO, COD10K, and CHAMELEON are in
-[docs/DATASETS.md](docs/DATASETS.md).
+The repository includes an 800-image research subset under
+[`data/samples`](data/samples): 100 image/mask/prompt triples for each of the
+eight paper datasets. Validate it with:
+
+```bash
+pfft-re validate-manifest data/samples/manifest.jsonl
+```
+
+The full datasets, SAM/SAM 2 source, and checkpoints are not vendored. Dataset
+samples are third-party material, are not covered by this repository's
+Apache-2.0 license, and remain subject to their original terms. Official
+sources and redistribution notes are in [docs/DATASETS.md](docs/DATASETS.md).
 
 ## Reproducibility notes
 

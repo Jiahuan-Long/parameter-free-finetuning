@@ -1,8 +1,10 @@
 # Data directory
 
-Third-party datasets are deliberately excluded from version control. Download
-them from their official sources, prepare same-stem image/mask/prompt triples,
-and generate JSONL manifests with `pfft-re prepare-manifest`.
+Full third-party datasets are deliberately excluded from version control. A
+sample subset is available in [`samples/`](samples/): 100 records for each of
+the eight paper datasets, or 800 image/mask/prompt triples in total. Download
+complete datasets from their official sources, prepare same-stem triples, and
+generate JSONL manifests with `pfft-re prepare-manifest`.
 
 See [`docs/DATASETS.md`](../docs/DATASETS.md) for sources and license notes.
 
