@@ -1,5 +1,6 @@
 import pytest
 import torch
+
 from redundancy_elimination.channels import (
     apply_replacements,
     generate_candidate_combinations,

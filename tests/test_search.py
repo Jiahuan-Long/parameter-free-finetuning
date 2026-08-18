@@ -3,6 +3,7 @@ from typing import Sequence
 
 import numpy as np
 import torch
+
 from redundancy_elimination.channels import apply_replacements
 from redundancy_elimination.metrics import binary_iou
 from redundancy_elimination.models import (

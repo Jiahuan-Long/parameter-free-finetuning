@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from PIL import Image
+
 from redundancy_elimination.datasets import (
     create_flat_manifest,
     iter_manifest,
