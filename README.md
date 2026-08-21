@@ -184,14 +184,10 @@ pytest
 
 ```bibtex
 @inproceedings{long2026parameterfree,
-  title={Parameter-Free Fine-tuning via Redundancy Elimination for Vision Foundation Models},
-  author={Long, Jiahuan and Jiang, Tingsong and Yao, Wen and Xiong, Yizhe and Xu, Zhengqin and Jia, Shuai and Liu, Hanqing and Ma, Chao},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={40},
-  number={28},
-  pages={24035--24043},
-  year={2026},
-  doi={10.1609/aaai.v40i28.39581}
+title={Parameter-Free Fine-tuning via Redundancy Elimination for Vision Foundation Models},
+author={Long, Jiahuan and Jiang, Tingsong and Yao, Wen and Xiong, Yizhe and Xu, Zhengqin and Jia, Shuai and Liu, Hanqing and Ma, Chao},
+booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+year={2026}
 }
 ```
 
